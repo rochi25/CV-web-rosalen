@@ -24,7 +24,6 @@ document.getElementById('botonDescarga').addEventListener('click', function() {
     // Crear un enlace de descarga
     var enlaceAbrir = document.createElement('a');
     enlaceAbrir.href = pdfURL;
-    enlaceAbrir.target = '_blank';
 
     // Establecer el nombre del archivo
     enlaceAbrir.download = 'CV_ROSALÉN_HERNÁNDEZ_QA_.pdf';
@@ -38,6 +37,7 @@ document.getElementById('botonDescarga').addEventListener('click', function() {
     // Eliminar el enlace del documento después de la descarga
     document.body.removeChild(enlaceAbrir);
 });
+
 
 
 
