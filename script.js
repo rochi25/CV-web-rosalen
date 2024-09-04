@@ -19,7 +19,7 @@ function seleccionar(){
 
 document.getElementById('botonDescarga').addEventListener('click', function() {
     // Ruta al archivo PDF
-    var pdfURL = 'CV_ROSALÉN_HERNÁNDEZ_QA.pdf';
+    var pdfURL = 'CV_ROSALÉN_HERNÁNDEZ_QA_.pdf';
 
     // Crear un enlace de descarga
     var enlaceAbrir = document.createElement('a');
@@ -27,7 +27,7 @@ document.getElementById('botonDescarga').addEventListener('click', function() {
     enlaceAbrir.target = '_blank';
 
     // Establecer el nombre del archivo
-    enlaceAbrir.download = 'CV_ROSALÉN_HERNÁNDEZ.pdf';
+    enlaceAbrir.download = 'CV_ROSALÉN_HERNÁNDEZ_QA_.pdf';
 
     // Añadir el enlace al documento
     document.body.appendChild(enlaceAbrir);
